@@ -7,29 +7,27 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="style.css">
   <title>My CV</title>
 </head>
 <body>
   <header>
     <nav>
-      <ul>
-        <li class="nav-list">
-          <a class="nav-item" href="#1">About Me</a>
-          <a class="nav-item" href="#2">Contacts</a>
-          <a class="nav-item" href="#3">Skills</a>
-          <a class="nav-item" href="#4">Code exapmle</a>
-          <a class="nav-item" href="#5">Projects</a>
-          <a class="nav-item" href="#6">Education and Courses</a>
-          <a class="nav-item" href="#7">Languages</a>
-        </li>
+      <ul class="nav-list">
+        <li class="nav-item"><a class="nav-item" href="#1">About Me</a></li>
+        <li class="nav-item"><a class="nav-item" href="#2">Contacts</a></li>
+        <li class="nav-item"><a class="nav-item" href="#3">Skills</a></li>
+        <li class="nav-item"><a class="nav-item" href="#4">Code exapmle</a></li>
+        <li class="nav-item"><a class="nav-item" href="#5">Projects</a></li>
+        <li class="nav-item"><a class="nav-item" href="#6">Education and Courses</a></li>
+        <li class="nav-item"><a class="nav-item" href="#7">Languages</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <section id="1" class="about_me">
       <div class="container">
-        <img class="portfolio" src="img/image.jpg" alt="portfolio">
+        <img class="portfolio" src="assets/img/image.jpg" alt="portfolio">
         <div class="about_wrapp">
           <h1>
             Moskalenko Kateryna
@@ -54,8 +52,8 @@
         <h2 class="contacts_title">Contacts</h2>
         <div class="line"></div>
         <ul class="contacts_wrapp">
-          <li class="contacts_item">Phone: +48574755315</li>
-          <li class="contacts_item">Email: moskalenkokat40@gmail.com</li>
+          <li><a class="contacts_item" href="malito:moskalenkokat40@gmail.com">Email: moskalenkokat40@gmail.com</a></li>
+          <li><a class="contacts_item" href="tel:+48574755315">Phone: +48574755315</a></li>
         </ul>
       </div>
     </section>
@@ -104,8 +102,8 @@
         <h2 class="projects_title">Projects</h2>
         <div class="line"></div>
         <div class="projects_wrapper">
-          <a href="https://moskalenkokat.github.io/"><img class="project_1" src="img/photo1671026166.jpeg" alt="photo"> <div class="project_name">Uber</div></a>
-          <a href="https://rolling-scopes-school.github.io/moskalenkokat-JSFE2022Q3/online-zoo/pages/main/"><img class="project_2" src="img/photo1671287624.jpeg" alt="photo"><div class="project_name">Online-zoo</div></a>
+          <a href="https://moskalenkokat.github.io/"><img class="project_1" src="assets/img/photo1671026166.jpeg" alt="photo"> <div class="project_name">Uber</div></a>
+          <a href="https://rolling-scopes-school.github.io/moskalenkokat-JSFE2022Q3/online-zoo/pages/main/"><img class="project_2" src="assets/img/photo1671287624.jpeg" alt="photo"><div class="project_name">Online-zoo</div></a>
           
         </div>
       </div>
@@ -135,10 +133,10 @@
     </section>
   </main>
   <footer>
-    <div class="footer_nav">
-      <a class="icons" href="https://rs.school/js/"><img class="icons" src="icons/rs_school_js.svg" alt="rsschool"></a>
-      <a class="icons" href="#"><img class="icons" src="icons/2022.png" alt="2022"></a>
-      <a class="icons" href="https://github.com/moskalenkokat"><img class="icons" src="icons/github.png" alt="github"></a>
-    </div>
+    <ul class="footer_nav">
+      <li><a class="icons" href="https://rs.school/js/"><img class="icons" src="assets/icons/rs_school_js.svg" alt="rsschool"></a></li>
+      <li><a class="icons" href="#"><img class="icons" src="assets/icons/2022.png" alt="2022"></a></li>
+      <li><a class="icons" href="https://github.com/moskalenkokat"><img class="icons" src="assets/icons/github.png" alt="github"></a></li>
+    </ul>
   </footer>
 </html>
