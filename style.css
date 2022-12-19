@@ -1,3 +1,8 @@
+body {
+  width: 1470px;
+  margin: 0 auto;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +13,14 @@
   padding: 0 60px 0 60px;
 }
 
+a {
+  margin-top: 10px;
+  font-size: 21px;
+  line-height: 30px;
+  color: #454545;
+  font-weight: 400;
+  font-family: "Poppins";
+}
 
 nav {
   background-color: #f8dcbf;
@@ -102,6 +115,10 @@ h2 {
   border-radius: 10px;
 }
 
+.contacts_wrapp {
+  margin-top: 10px;
+}
+
 
 .contacts_title {
   margin-bottom: 30px;
@@ -126,6 +143,9 @@ h2 {
   color:blue;
 }
 
+.contacts_item::before {
+ 
+}
 
 .skills {
   margin-top: 35px;
